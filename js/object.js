@@ -72,28 +72,31 @@
 
 // playlist.getName(5);
 
-const playlist = {
-  name: 'my super playlist',
-  rating: 5,
-  tracks: ['track-1', 'track-2', 'track-3'],
-  trackCount: 3,
-  // getName: function () {
-  //   console.log('Aha thi is getName ;)');
-  // }, Метод обєкта 
-  changeName(newName) {
-    //
-    console.log('this');
-    this.name = newName;
-  },
-  addrTrack(track) {
-    this.tracks.push(track);
-    this.trackCount = this.tracks.length;
-  }
-  updateRating(newRating) {
-    this.rating = newRAting;
-  }
-};
+// const playlist = {
+//   name: 'my super playlist',
+//   rating: 5,
+//   tracks: ['track-1', 'track-2', 'track-3'],
+//   trackCount: 3,
+//   // getName: function () {
+//   //   console.log('Aha thi is getName ;)');
+//   // }, Метод обєкта 
+//   changeName(newName) {
+//     //
+//     console.log('this');
+//     this.name = newName;
+//   },
+//   addrTrack(track) {
+//     this.tracks.push(track);
+//     this.trackCount = this.tracks.length;
+//   },
+//     updateRating(newRating) {
+//     this.rating = newRAting;
+//   },
+//   detTrackCount() {
+//     return this.tracks.length;
+//     }
+// };
 
-playlist.changeName('New name');
+// playlist.changeName('New name');
 
-console.log(playlist);
+// console.log(playlist);
